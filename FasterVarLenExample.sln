@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterVarLenServer", "FasterVarLenServer\FasterVarLenServer.csproj", "{63A5F4EB-A07D-4D92-86F1-EAC47341FE12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterVarLenClient", "FasterVarLenClient\FasterVarLenClient.csproj", "{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A5F4EB-A07D-4D92-86F1-EAC47341FE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A5F4EB-A07D-4D92-86F1-EAC47341FE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A5F4EB-A07D-4D92-86F1-EAC47341FE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A5F4EB-A07D-4D92-86F1-EAC47341FE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9588405-71AA-49D5-80C6-D8AC284AA198}
+	EndGlobalSection
+EndGlobal

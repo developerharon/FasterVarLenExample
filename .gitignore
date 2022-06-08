@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FasterVarLenClient/bin/Debug/net6.0
+/FasterVarLenServer/bin/Debug/net6.0
+/FasterVarLenServer/obj
+/FasterVarLenClient/obj
+/.vs
