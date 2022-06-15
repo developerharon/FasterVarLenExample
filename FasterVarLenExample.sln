@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterVarLenServer", "FasterVarLenServer\FasterVarLenServer.csproj", "{63A5F4EB-A07D-4D92-86F1-EAC47341FE12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterVarLenServer", "FasterVarLenServer\FasterVarLenServer.csproj", "{63A5F4EB-A07D-4D92-86F1-EAC47341FE12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterVarLenClient", "FasterVarLenClient\FasterVarLenClient.csproj", "{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FasterVarLenClient", "FasterVarLenClient\FasterVarLenClient.csproj", "{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterValLenApi", "FasterValLenApi\FasterValLenApi.csproj", "{5A8274E2-4B03-4800-B752-D245E2AB46DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38EC10C8-7333-45CE-A756-8BE53DB6F0E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A8274E2-4B03-4800-B752-D245E2AB46DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8274E2-4B03-4800-B752-D245E2AB46DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8274E2-4B03-4800-B752-D245E2AB46DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8274E2-4B03-4800-B752-D245E2AB46DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

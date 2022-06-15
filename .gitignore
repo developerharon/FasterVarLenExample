@@ -7,3 +7,5 @@
 /FasterVarLenServer/obj
 /FasterVarLenClient/obj
 /.vs
+/FasterValLenApi/obj
+/FasterValLenApi/bin/Debug/net6.0
