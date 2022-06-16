@@ -9,7 +9,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddHostedService<ProductStoreServer>();
+builder.Services.AddHostedService<StudentStoreServer>();
+
 builder.Services.AddSingleton<ProductStoreClient>();
+builder.Services.AddSingleton<StudentStoreClient>();
 
 var app = builder.Build();
 

@@ -5,11 +5,11 @@ namespace FasterValLenApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class StudentController : ControllerBase
     {
-        private readonly ProductStoreClient _client;
+        private readonly StudentStoreClient _client;
 
-        public ProductController(ProductStoreClient client)
+        public StudentController(StudentStoreClient client)
         {
             _client = client;
         }
@@ -17,18 +17,18 @@ namespace FasterValLenApi.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(int id)
         {
-            var product = await _client.GetProductByIdAsync(id);
-            if (product is not null)
-                return Ok(product);
+            var student = await _client.GetStudentByIdAsync(id);
+            if (student is not null)
+                return Ok(student);
             return NoContent();
         }
 
         [HttpPost]
-        public ActionResult Post(Product product)
+        public ActionResult Post(Student student)
         {
             if (ModelState.IsValid)
             {
-                _client.AddProduct(product);
+                _client.AddStudent(student);
                 return Ok();
             }
 
